@@ -1,0 +1,29 @@
+---
+title: "Test-notebook"
+author: "Filip Wästberg"
+date: "10/11/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning=FALSE, message=FALSE)
+```
+
+Just a summary table.
+
+```{r}
+library(tidyverse)
+
+mtcars %>% 
+	group_by(cyl) %>% 
+	summarise(mean_hp = mean(hp))
+```
+
+Interactive plot
+
+```{r}
+library(plotly)
+
+plot_ly(mtcars, x = ~hp, y = ~qsec)
+```
+

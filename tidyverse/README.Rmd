@@ -1,0 +1,12 @@
+---
+title: "README"
+author: "Filip Wästberg"
+date: "10/11/2019"
+output: md_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Readme
