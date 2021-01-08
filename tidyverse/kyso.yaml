@@ -1,3 +1,5 @@
-posts:
-  - "*"
-main: notebook-example-plot.md
+description: "Simple tidyverse with plotly example."
+email: kyle@kyso.io
+main: notebook.html
+preview: images/preview.png
+title: "Tidyverse"

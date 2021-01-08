@@ -1,0 +1,5 @@
+description: "Simple leaflet map example."
+email: kyle@kyso.io
+main: notebook.html
+preview: images/preview.png
+title: "Leaflet Maps"

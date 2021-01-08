@@ -1,8 +1,8 @@
 ---
 title: "Test-notebook"
-author: "Filip Wästberg"
-date: "10/11/2019"
-output: html_document
+author: "Kyle"
+date: 08/01/2021"
+output: html_document AND markdown_document
 ---
 
 
@@ -37,6 +37,5 @@ plot_ly(mtcars, x = ~hp, y = ~qsec)
 ```
 
 ```
-## Error in loadNamespace(name): there is no package called 'webshot'
+## Error in file(con, "rb"): cannot open the connection
 ```
-
